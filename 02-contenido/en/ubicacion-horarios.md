@@ -32,7 +32,11 @@ We're located on Ruta 4 (the main highway), easily accessible from across the re
 - **From Guápiles:** ~30 minutes
 - **From Cartago:** ~2 hours
 
-You can reach us by any type of vehicle, and public transportation is also available.
+You can reach us by any type of vehicle.
+
+### By Public Transportation
+
+From **San José or Guápiles**, you can take the **Los Caribeños** buses heading to Puerto Viejo de Sarapiquí. Ask the driver to let you know at the stop **before Materiales Sarapiquí**. For exact bus schedules, contact us.
 
 [IMAGE: go-kart-frente-bodega-lamina-roja-sarapiqui | alt: Driver operates go kart next to the red sheet metal building at Sarapiquí Race Park facilities]
 

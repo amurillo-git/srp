@@ -35,7 +35,11 @@ Se recomienda estar en buena condición física para conducir. No hay restriccio
 
 ### ¿Es obligatoria la reserva previa?
 
-**Sí**, la reserva previa es obligatoria. No se pueden hacer carreras sin haber reservado con anticipación.
+**Sí**, la reserva previa es obligatoria. La reserva es necesaria para tu comodidad: así no tienes que esperar. Llegas a la hora de tu reserva e ingresas a la pista de inmediato.
+
+### ¿Se puede ir sin hacer una reserva previa?
+
+**No.** La reserva es necesaria para comodidad del cliente. Sin reserva no se pueden hacer carreras; así que contáctanos con anticipación para asegurar tu lugar.
 
 ### ¿Qué tipo de depósito se requiere?
 
@@ -59,6 +63,10 @@ Estamos abiertos:
 
 **Cerrado de lunes a viernes.**
 
+### ¿Qué pasa si llueve?
+
+Aquí no importa si llueve, se opera igual. Si hay algún cierre de ruta por problemas del temporal, el cliente **no pierde su reserva**: se le reagenda dentro de los siguientes **30 días naturales**.
+
 ---
 
 ## Cómo Llegar
@@ -81,7 +89,7 @@ Desde los principales puntos de Costa Rica:
 
 ### ¿Hay forma de llegar en transporte público?
 
-**Sí**, es posible llegar en transporte público. Para más información sobre las rutas y paradas exactas de autobús que te llevan a nuestras instalaciones, **contáctanos directamente por WhatsApp al +506 7210-0389 o por email a info@srp.cr**.
+**Sí**, es posible llegar en transporte público. Desde **San José o Guápiles**, toma los buses de **Los Caribeños** con destino a Puerto Viejo de Sarapiquí. Pide al chofer que avise **la parada antes de Materiales Sarapiquí**. Si tienes dudas sobre los horarios exactos, **contáctanos por WhatsApp al +506 7210-0389 o por email a info@srp.cr**.
 
 ---
 
@@ -114,10 +122,14 @@ El precio de tu paquete incluye:
 - Uso de la pista off-road
 - Acceso a duchas
 
+### ¿Hay comida disponible en el lugar?
+
+Hay **convenios con restaurantes de la zona**. El parque se encarga de que entreguen los pedidos dentro de las instalaciones. Así puedes disfrutar de una comida deliciosa entre tus carreras.
+
 ### ¿Qué NO incluye el precio?
 
 No están incluidos:
-- Comidas ni bebidas
+- Comidas ni bebidas (aunque hay convenios disponibles — consulta con nosotros)
 - Fotografías profesionales
 
 ---
@@ -134,36 +146,3 @@ El proceso es simple:
 4. **Realiza el depósito del 50%** para confirmar tu reserva
 5. **¡Confirmado!** Recibirás la confirmación final
 
----
-
----
-
-## PENDIENTES DE CONFIRMAR CON ADRIAN
-
-Las siguientes preguntas **aún no se pueden responder** con la información disponible hoy. Adrian debe proporcionar estos datos antes de que puedan publicarse en el sitio:
-
----
-
-## ¿Qué pasa si llueve?
-
-**Respuesta PENDIENTE** — La política del parque durante lluvias (si se cancela, pospone, o si se puede correr igual) no está confirmada. Contacta a Adrian en info@srp.cr o +506 7210-0389 para preguntar.
-
-## ¿Se puede llegar sin haber hecho una reserva previa?
-
-**Respuesta PENDIENTE** — No se sabe si hay flexibilidad para aceptar visitantes sin reserva previa o si es estrictamente obligatorio reservar con días de anticipación. Contacta a Adrian para aclarar.
-
-## ¿Hay comida disponible en el lugar?
-
-**Respuesta PENDIENTE** — El brief menciona servicios de comidas/bebidas como "servicios adicionales", pero no está claro si hay una cafetería/restaurante en el lugar, si ofrecen servicio de catering, o dónde comer. Contacta a Adrian en info@srp.cr.
-
-## ¿Cuál es la ruta exacta y parada de transporte público?
-
-**Respuesta PENDIENTE** — Aunque se puede llegar en transporte público, la ruta exacta del autobús, número de línea y parada más cercana no están confirmadas. Contacta a Adrian al +506 7210-0389 (WhatsApp) para obtener esta información.
-
----
-
-**Nota:** Esta sección de preguntas pendientes se actualizará tan pronto como Adrian proporcione las respuestas confirmadas.
-
----
-
-**Formato técnico para implementación:** Este archivo está listo para ser marcado con el schema `FAQPage` de schema.org en la página HTML final. Cada par pregunta/respuesta en las secciones anteriores (fuera de "PENDIENTES") constituye un bloque `FAQItem` completo.

@@ -29,7 +29,11 @@ Estamos ubicados en la Ruta 4 (carretera principal), fácil de acceder desde tod
 - **Desde Guápiles:** ~30 minutos
 - **Desde Cartago:** ~2 horas
 
-Se puede llegar en cualquier tipo de vehículo, y también en transporte público.
+Se puede llegar en cualquier tipo de vehículo.
+
+### En Transporte Público
+
+Desde **San José o Guápiles**, puedes tomar los buses de **Los Caribeños** con destino a Puerto Viejo de Sarapiquí. Pide al chofer que avise la parada antes de Materiales Sarapiquí. Para más información sobre horarios exactos de autobús, contáctanos.
 
 [IMAGEN: go-kart-frente-bodega-lamina-roja-sarapiqui | alt: Piloto conduce su go kart junto a la bodega de lámina roja de las instalaciones de Sarapiquí Race Park]
 

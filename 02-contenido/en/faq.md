@@ -38,7 +38,11 @@ Good physical condition is recommended. No specific restrictions beyond being ab
 
 ### Is advance booking required?
 
-**Yes**, advance booking is mandatory. Races cannot be done without prior reservation.
+**Yes**, advance booking is mandatory. Advance booking is necessary for your convenience: this way you don't have to wait. You arrive at your reserved time and go straight onto the track.
+
+### Can I show up without an advance reservation?
+
+**No.** Advance booking is required — we cannot accommodate walk-ins without a reservation. Please contact us ahead of time to secure your spot.
 
 ### What deposit is required?
 
@@ -62,6 +66,10 @@ We're open:
 
 **Closed Monday through Friday.**
 
+### What happens if it rains?
+
+It doesn't matter if it rains — we operate the same. If a road closure occurs due to severe weather, your reservation is not lost: we'll reschedule you within the following **30 days**.
+
 ---
 
 ## How to Get Here
@@ -84,7 +92,7 @@ From major Costa Rica destinations:
 
 ### Can I use public transportation?
 
-**Yes**, public transportation is available. For exact bus routes and stops to our facilities, **contact us directly on WhatsApp at +506 7210-0389 or by email at info@srp.cr**.
+**Yes**, public transportation is available. From **San José or Guápiles**, take the **Los Caribeños** buses heading to Puerto Viejo de Sarapiquí. Ask the driver to let you know at the stop **before Materiales Sarapiquí**. For exact schedules, **contact us on WhatsApp at +506 7210-0389 or by email at info@srp.cr**.
 
 ---
 
@@ -117,10 +125,14 @@ Your package price includes:
 - Off-road track access
 - Shower facilities
 
+### Is food available at the park?
+
+**Yes**, food is available. We have **agreements with local restaurants** who deliver orders to our facilities. You can enjoy a great meal between races.
+
 ### What's NOT included in the price?
 
 Not included:
-- Food or beverages
+- Food or beverages (though we have restaurant partnerships available — ask us)
 - Professional photographs
 
 ---
@@ -137,36 +149,3 @@ The process is simple:
 4. **Make the 50% deposit** to confirm your reservation
 5. **Confirmed!** You'll receive final confirmation
 
----
-
----
-
-## PENDING CONFIRMATION WITH ADRIAN
-
-The following questions **cannot yet be answered** with available information. Adrian must provide these answers before they can be published on the site:
-
----
-
-## What happens if it rains?
-
-**Answer PENDING** — Park policy during rain (cancellation, postponement, or racing in rain) is not confirmed. Contact Adrian at info@srp.cr or +506 7210-0389 to ask.
-
-## Can I come without a prior reservation?
-
-**Answer PENDING** — It's unclear whether there's flexibility to accept walk-ins without advance reservation or if booking days ahead is strictly required. Contact Adrian to clarify.
-
-## Is food available on-site?
-
-**Answer PENDING** — The brief mentions food/beverages as "additional services," but it's not clear if there's an on-site café/restaurant, catering service, or where to eat. Contact Adrian at info@srp.cr.
-
-## What's the exact public transportation route and stop?
-
-**Answer PENDING** — While public transit is available, the exact bus route, line number, and nearest stop are not confirmed. Contact Adrian at +506 7210-0389 (WhatsApp) for this information.
-
----
-
-**Note:** This pending section will be updated as soon as Adrian provides confirmed answers.
-
----
-
-**Technical format for implementation:** This file is ready to be marked with schema.org's `FAQPage` schema in the final HTML page. Each question/answer pair in the sections above (outside "PENDING") forms one complete `FAQItem` block.

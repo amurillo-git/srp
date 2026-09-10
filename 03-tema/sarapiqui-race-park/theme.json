@@ -1,0 +1,193 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "$comment": "Paleta y tipografia de marca de Sarapiqui Race Park. Ver README.md del tema para ratios de contraste calculados y justificacion de cada regla de accesibilidad.",
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "gradients": [],
+      "palette": [
+        {
+          "slug": "elite-sand",
+          "color": "#E6DFD1",
+          "name": "Elite Sand"
+        },
+        {
+          "slug": "impact-red",
+          "color": "#CB492C",
+          "name": "Impact Red"
+        },
+        {
+          "slug": "total-force",
+          "color": "#000000",
+          "name": "Total Force"
+        }
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "lineHeight": true,
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "slug": "display",
+          "name": "Anton",
+          "fontFamily": "'Anton', 'Arial Narrow Bold', 'Helvetica Neue Condensed Bold', sans-serif"
+        },
+        {
+          "slug": "body",
+          "name": "Barlow",
+          "fontFamily": "'Barlow', 'Helvetica Neue', Arial, sans-serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "body-sm",
+          "name": "Body pequeño",
+          "size": "0.875rem",
+          "fluid": false
+        },
+        {
+          "slug": "body",
+          "name": "Cuerpo",
+          "size": "1rem",
+          "fluid": false
+        },
+        {
+          "slug": "label",
+          "name": "Etiqueta / CTA",
+          "size": "0.9375rem",
+          "fluid": {
+            "min": "0.875rem",
+            "max": "0.9375rem"
+          }
+        },
+        {
+          "slug": "body-lg",
+          "name": "Cuerpo grande / lead",
+          "size": "1.125rem",
+          "fluid": {
+            "min": "1.0625rem",
+            "max": "1.125rem"
+          }
+        },
+        {
+          "slug": "display-md",
+          "name": "Display pequeño (H3)",
+          "size": "1.75rem",
+          "fluid": {
+            "min": "1.375rem",
+            "max": "1.75rem"
+          }
+        },
+        {
+          "slug": "display-lg",
+          "name": "Display mediano (H2)",
+          "size": "2.5rem",
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.5rem"
+          }
+        },
+        {
+          "slug": "display-xl",
+          "name": "Display grande (H1 / hero)",
+          "size": "3.5rem",
+          "fluid": {
+            "min": "2.25rem",
+            "max": "3.5rem"
+          }
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": true,
+      "padding": true,
+      "margin": true,
+      "units": ["px", "%", "rem", "vh", "vw"]
+    },
+    "layout": {
+      "contentSize": "720px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#E6DFD1",
+      "text": "#000000"
+    },
+    "typography": {
+      "fontFamily": "'Barlow', 'Helvetica Neue', Arial, sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "#000000"
+        },
+        ":hover": {
+          "color": {
+            "text": "#CB492C"
+          }
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "'Anton', 'Arial Narrow Bold', 'Helvetica Neue Condensed Bold', sans-serif",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.01em"
+        },
+        "color": {
+          "text": "#000000"
+        }
+      },
+      "button": {
+        "typography": {
+          "fontFamily": "'Anton', 'Arial Narrow Bold', 'Helvetica Neue Condensed Bold', sans-serif",
+          "textTransform": "uppercase",
+          "fontSize": "0.9375rem"
+        },
+        "color": {
+          "background": "#000000",
+          "text": "#E6DFD1"
+        },
+        ":hover": {
+          "color": {
+            "background": "#CB492C",
+            "text": "#E6DFD1"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "core/post-title": {
+        "typography": {
+          "fontFamily": "'Anton', 'Arial Narrow Bold', 'Helvetica Neue Condensed Bold', sans-serif"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}

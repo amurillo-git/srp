@@ -39,6 +39,19 @@
     "name": "Pista Off-Road",
     "description": "Pista de go karts off-road de 500 metros con curvas, rectas y terreno variado"
   },
-  "_comment_geo": "PENDIENTE: coordenadas exactas del pin de Google Maps. Adrián debe proporcionar latitud y longitud para la propiedad 'geo': { '@type': 'GeoCoordinates', 'latitude': '...', 'longitude': '...' }",
-  "_comment_sameAs": "PENDIENTE: URLs de Instagram, TripAdvisor y Google Business Profile cuando estén disponibles. Se agregará propiedad 'sameAs': [ 'https://...instagram...', 'https://...tripadvisor...', 'https://...google-business-profile...' ]"
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "10.342081",
+    "longitude": "-83.954097"
+  },
+  "sameAs": [
+    "https://www.instagram.com/sarapiquiracepark",
+    "https://www.facebook.com/sarapiquiracepark",
+    "https://www.tiktok.com/@sarapiquiracepark",
+    "https://linktr.ee/sarapiquiracepark"
+  ],
+  "hasMap": [
+    "https://maps.app.goo.gl/Rk2z39BCwLQFtY4A9",
+    "https://waze.com/ul/hd1u6cddqv"
+  ]
 }

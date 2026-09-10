@@ -73,6 +73,38 @@
         "@type": "Answer",
         "text": "Puedes contactarnos por WhatsApp al +506 7210-0389 o enviar un email a info@srp.cr para realizar tu reserva."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa si llueve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aquí no importa si llueve, se opera igual. Si hay algún cierre de ruta por problemas del temporal, el cliente no pierde su reserva: se le reagenda dentro de los siguientes 30 días naturales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se puede ir sin reserva?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. La reserva es necesaria para comodidad del cliente: así no tiene que esperar. Llega a la hora de su reserva e ingresa a la pista de inmediato."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hay comida en el lugar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hay convenios con restaurantes de la zona. El parque se encarga de que entreguen los pedidos dentro de las instalaciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo llegar en transporte público?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Desde San José o Guápiles, tomar los buses de Los Caribeños con destino a Puerto Viejo de Sarapiquí. Pedir al chofer que avise la parada antes de Materiales Sarapiquí."
+      }
     }
   ]
 }
