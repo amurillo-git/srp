@@ -128,13 +128,25 @@ Esto confirma un incumplimiento total del punto 7 de la sección 6 del brief ("e
 
 ## 7. Verificación complementaria de SEO técnico (contexto, no pedida explícitamente pero relevante para priorizar)
 
-Sobre el HTML renderizado de `/inicio/` (mismo patrón esperado en las otras 3, no se repitió la búsqueda en las 4 por no ser parte del encargo):
-- No se encontró etiqueta `<meta name="description">`.
-- No se encontraron etiquetas Open Graph (`<meta property="og:...">`).
-- No se encontró ningún bloque `application/ld+json` (JSON-LD).
-- El `<title>` de la página es `Sarapiquí Race Park | Go Karts Off-Road en Costa Rica – sarapiquiracepark.com`, confirmando el hallazgo de la sección 1.1 del brief (título del sitio sin corregir, agregado como sufijo).
+Se ejecutó `grep` sobre el HTML renderizado de las 4 páginas núcleo buscando `<meta name="description"`, `<meta property="og:` y `application/ld+json`. Resultado, página por página:
 
-Esto es consistente con lo que ya documenta el brief en la sección 1.1 ("SEO técnico al 0%") — se deja registrado aquí porque confirma, con evidencia propia de esta auditoría, que el diagnóstico del brief sigue vigente a la fecha de hoy.
+| Página | `<meta name="description">` | Open Graph (`og:...`) | JSON-LD (`application/ld+json`) |
+|---|---|---|---|
+| Inicio (`rendered-inicio.html`) | No encontrado | No encontrado | No encontrado |
+| Actividades (`rendered-actividades.html`) | No encontrado | No encontrado | No encontrado |
+| Ubicación y Horarios (`rendered-ubicacion.html`) | No encontrado | No encontrado | No encontrado |
+| Precios y Paquetes (`rendered-precios.html`) | No encontrado | No encontrado | No encontrado |
+
+Las 4 páginas coinciden: ninguna tiene meta description, etiquetas Open Graph ni JSON-LD. El `<title>` de Inicio es `Sarapiquí Race Park | Go Karts Off-Road en Costa Rica – sarapiquiracepark.com`, confirmando el hallazgo de la sección 1.1 del brief (título del sitio sin corregir, agregado como sufijo).
+
+Esto es consistente con lo que ya documenta el brief en la sección 1.1 ("SEO técnico al 0%") — se deja registrado aquí porque confirma, con evidencia propia de esta auditoría (extendida ahora a las 4 páginas, no solo Inicio), que el diagnóstico del brief sigue vigente a la fecha de hoy.
+
+### 7.1 Verificación de menciones a antigüedad del negocio o cifras inventadas (las 4 páginas)
+
+Se ejecutó `grep` sobre las 4 páginas renderizadas buscando los patrones "meses", "años", "cientos", "miles", "desde 20", "experiencia", "operando", "fundad", "año de":
+
+- **Inicio**: contiene la frase ya documentada en la sección 1 ("Con más de 7 meses operando, hemos brindado experiencias inolvidables a cientos de visitantes nacionales e internacionales") y una mención genérica sin cifra ("nuestro objetivo es proporcionar la mejor experiencia de carrera..." — "experiencia" aquí significa "vivencia/servicio", no antigüedad; no viola la regla).
+- **Actividades, Ubicación y Horarios, Precios y Paquetes**: **ninguna coincidencia** con esos patrones en las 3 páginas. No se detectó ninguna otra mención a tiempo de operación del negocio ni ninguna otra cifra inventada (visitantes, años, "miles", etc.) más allá de la ya reportada en Inicio.
 
 ---
 

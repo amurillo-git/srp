@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "generado_por": "agente assets",
+    "fuente_fotos": "C:/Users/adria/Dropbox/Privado/Personal/Proyectos AMC/gokarts/Sitio Web Claude/Imagenes (SOLO LECTURA, no modificado)",
+    "fuente_videos": "C:/Users/adria/Dropbox/Privado/Personal/Proyectos AMC/gokarts/Sitio Web Claude/Videos (SOLO LECTURA, no modificado)",
+    "salida_web": "assets-web/ (rutas relativas a la raiz del repo C:/Users/adria/Proyectos/srp)",
+    "metodo": "Python + Pillow (C:/Users/adria/.notebooklm-venv/Scripts/python), script en scratchpad: convert_images.py",
+    "formato_salida": "WebP calidad 82, anchos 480/960/1600 px, sin upscaling, orientacion corregida via EXIF (ImageOps.exif_transpose)",
+    "paleta_aplicable": "Elite Sand #E6DFD1 / Impact Red #CB492C / Total Force #000000 (no aplica directamente a fotos, solo a UI que las envuelve)",
+    "regla": "Ninguna foto es stock: las 15 son material real del parque. No se inventaron descripciones ni datos no verificables (ver 01-spec/assets.md para huecos de cobertura)."
+  },
+  "hero_inicio": {
+    "slug": "go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui",
+    "archivo_original": "20260726_103159.jpg",
+    "nota": "Foto elegida como hero de la pagina Inicio: accion nitida, lodo en el aire, piloto y kart en foco. Orientacion real (post EXIF) es vertical (retrato) 3000x4000 -- el tema debe recortar/objectfit:cover para uso como banner ancho en escritorio; en mobile-first funciona bien tal cual."
+  },
+  "open_graph": {
+    "slug": "go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630",
+    "archivo_generado": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+    "dimensiones": "1200x630",
+    "origen": "recorte centrado de 20260726_103159.jpg (misma foto que el hero de Inicio)",
+    "nota": "Usar en meta og:image y twitter:image de las 4-5 paginas mientras no haya foto de portada especifica por pagina."
+  },
+  "fotos": [
+    {
+      "archivo_original": "20260402_093831(0).jpg",
+      "slug": "entrada-rotulo-sarapiqui-race-park-pilotos",
+      "descripcion": "Dos personas con casco de pie junto a un grupo de go karts (rojo y amarillo) estacionados, frente a una manta/banner negro con el logo 'Sarapiquí Race Park' montado sobre la pared de lamina roja de la bodega. Cielo nublado, lote de tierra.",
+      "alt_text": "Dos visitantes con casco puesto junto a los go karts, frente al rótulo de entrada de Sarapiquí Race Park",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 1557.0,
+      "pagina_seccion": "Ubicación y Horarios – encabezado / bienvenida; también Galería",
+      "outputs": [
+        "assets-web/entrada-rotulo-sarapiqui-race-park-pilotos-480.webp",
+        "assets-web/entrada-rotulo-sarapiqui-race-park-pilotos-960.webp",
+        "assets-web/entrada-rotulo-sarapiqui-race-park-pilotos-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260403_101305.jpg",
+      "slug": "familia-feliz-nina-casco-go-kart-sarapiqui",
+      "descripcion": "Niña con casco de karting puesto hace la señal de paz con ambas manos, acompañada por dos adultos (uno con playera negra 'DJI', otra con lentes de sol), de fondo karts amarillos y vegetación bajo cielo despejado.",
+      "alt_text": "Niña con casco de karting hace la señal de paz junto a dos adultos antes de su vuelta en Sarapiquí Race Park",
+      "orientacion": "vertical",
+      "dimensiones_originales": "2252x4000",
+      "peso_original_kb": 1220.6,
+      "pagina_seccion": "Inicio – sección \"Actividades Destacadas\" (familia); también Galería",
+      "outputs": [
+        "assets-web/familia-feliz-nina-casco-go-kart-sarapiqui-480.webp",
+        "assets-web/familia-feliz-nina-casco-go-kart-sarapiqui-960.webp",
+        "assets-web/familia-feliz-nina-casco-go-kart-sarapiqui-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260403_103847.jpg",
+      "slug": "piloto-cubierto-lodo-kart-frente-instalaciones",
+      "descripcion": "Piloto con casco completamente cubierto de lodo (brazos, piernas, ropa) conduciendo un go kart, con la bodega de lámina roja y el banner 'Sarapiquí Race Park' de fondo, terreno de tierra compactada.",
+      "alt_text": "Piloto cubierto de lodo conduce su go kart frente a las instalaciones de Sarapiquí Race Park",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 1322.6,
+      "pagina_seccion": "Actividades – sección de experiencia/seguridad; también Galería",
+      "outputs": [
+        "assets-web/piloto-cubierto-lodo-kart-frente-instalaciones-480.webp",
+        "assets-web/piloto-cubierto-lodo-kart-frente-instalaciones-960.webp",
+        "assets-web/piloto-cubierto-lodo-kart-frente-instalaciones-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260726_103016.jpg",
+      "slug": "salpicadura-lodo-alta-velocidad-go-kart",
+      "descripcion": "Primer plano en movimiento (motion blur) de un piloto con casco gris levantando una salpicadura de lodo espesa; se alcanza a ver el brazo extendido y parte del manubrio, fondo desenfocado de vegetación.",
+      "alt_text": "Salpicadura de lodo a alta velocidad durante una carrera de go karts off-road en Sarapiquí Race Park",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 2099.4,
+      "pagina_seccion": "Actividades – sección de pista/terreno (imagen de acción); también Galería",
+      "outputs": [
+        "assets-web/salpicadura-lodo-alta-velocidad-go-kart-480.webp",
+        "assets-web/salpicadura-lodo-alta-velocidad-go-kart-960.webp",
+        "assets-web/salpicadura-lodo-alta-velocidad-go-kart-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260726_103159.jpg",
+      "slug": "go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui",
+      "descripcion": "Piloto con casco y camiseta oscura conduce un go kart levantando una gran cortina de lodo detrás del vehículo; foto nítida y bien iluminada, con la bodega roja y árboles de fondo.",
+      "alt_text": "Go kart 270cc levantando una gran cortina de lodo en la pista off-road de Sarapiquí Race Park",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 2011.9,
+      "pagina_seccion": "Inicio – HERO (imagen principal); también Open Graph y Galería",
+      "es_hero_inicio": true,
+      "es_open_graph": true,
+      "outputs": [
+        "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-480.webp",
+        "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-960.webp",
+        "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-1600.webp",
+        "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260726_104704.jpg",
+      "slug": "grupo-cinco-go-karts-pista-tierra-sarapiqui",
+      "descripcion": "Toma amplia de cinco pilotos con casco, cada uno en su go kart (colores rojo, amarillo, naranja), alineados sobre un camino de tierra; al fondo pila de llantas usadas como borde de pista y bosque tupido.",
+      "alt_text": "Grupo de cinco pilotos con sus go karts alineados sobre la pista de tierra de Sarapiquí Race Park, rodeados de bosque",
+      "orientacion": "horizontal",
+      "dimensiones_originales": "4000x3000",
+      "peso_original_kb": 3800.5,
+      "pagina_seccion": "Actividades – sección de pista/grupo (imagen destacada); también Galería",
+      "outputs": [
+        "assets-web/grupo-cinco-go-karts-pista-tierra-sarapiqui-480.webp",
+        "assets-web/grupo-cinco-go-karts-pista-tierra-sarapiqui-960.webp",
+        "assets-web/grupo-cinco-go-karts-pista-tierra-sarapiqui-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260726_104715.jpg",
+      "slug": "fila-pilotos-go-kart-listos-carrera-grupal",
+      "descripcion": "Otra toma amplia, ángulo distinto, de cinco pilotos con casco sentados en sus go karts en fila, mirando hacia la cámara sobre la misma pista de tierra; cielo parcialmente nublado, pila de llantas y vegetación de fondo.",
+      "alt_text": "Fila de cinco pilotos con casco listos para la carrera grupal en sus go karts",
+      "orientacion": "horizontal",
+      "dimensiones_originales": "4000x3000",
+      "peso_original_kb": 3211.2,
+      "pagina_seccion": "Precios y Paquetes – sección de paquete grupal (mínimo 5 personas); también Galería",
+      "outputs": [
+        "assets-web/fila-pilotos-go-kart-listos-carrera-grupal-480.webp",
+        "assets-web/fila-pilotos-go-kart-listos-carrera-grupal-960.webp",
+        "assets-web/fila-pilotos-go-kart-listos-carrera-grupal-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_104706.jpg",
+      "slug": "rociada-barro-cerca-piloto-casco-carrera",
+      "descripcion": "Primer plano de una rociada de barro en el aire, con un piloto de casco oscuro visible parcialmente detrás del salpicón; fondo desenfocado de la bodega roja.",
+      "alt_text": "Primer plano de una rociada de barro sobre un piloto con casco durante una carrera de go karts",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 698.3,
+      "pagina_seccion": "Galería (imagen de acción de apoyo)",
+      "outputs": [
+        "assets-web/rociada-barro-cerca-piloto-casco-carrera-480.webp",
+        "assets-web/rociada-barro-cerca-piloto-casco-carrera-960.webp",
+        "assets-web/rociada-barro-cerca-piloto-casco-carrera-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_104752.jpg",
+      "slug": "piloto-cruza-charco-lodo-go-kart-velocidad",
+      "descripcion": "Piloto con top morado/lila cruza un charco de lodo a buena velocidad, generando una salpicadura fuerte hacia el costado del kart; rama de árbol sobre el encuadre, bodega roja de fondo.",
+      "alt_text": "Piloto cruza un charco de lodo a toda velocidad en su go kart, generando una fuerte salpicadura",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 1672.5,
+      "pagina_seccion": "Actividades – sección de terreno variado; también Galería",
+      "outputs": [
+        "assets-web/piloto-cruza-charco-lodo-go-kart-velocidad-480.webp",
+        "assets-web/piloto-cruza-charco-lodo-go-kart-velocidad-960.webp",
+        "assets-web/piloto-cruza-charco-lodo-go-kart-velocidad-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_105440.jpg",
+      "slug": "go-kart-frente-bodega-lamina-roja-sarapiqui",
+      "descripcion": "Piloto conduce su go kart en línea recta junto a una malla ciclónica y la pared de lámina roja de la bodega; motion blur en las llantas indica velocidad, ropa y cuerpo salpicados de lodo.",
+      "alt_text": "Piloto conduce su go kart junto a la bodega de lámina roja de las instalaciones de Sarapiquí Race Park",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 913.9,
+      "pagina_seccion": "Ubicación y Horarios – instalaciones; también Galería",
+      "outputs": [
+        "assets-web/go-kart-frente-bodega-lamina-roja-sarapiqui-480.webp",
+        "assets-web/go-kart-frente-bodega-lamina-roja-sarapiqui-960.webp",
+        "assets-web/go-kart-frente-bodega-lamina-roja-sarapiqui-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_110108.jpg",
+      "slug": "amigos-sonrientes-lodo-fin-recorrido-karts",
+      "descripcion": "Dos hombres jóvenes cubiertos de lodo, sonriendo para una foto tipo selfie/retrato al terminar su recorrido, de pie en el área de parqueo con vehículos, conos de tránsito anaranjados delimitando el camino y un toldo/carpa azul de fondo.",
+      "alt_text": "Dos amigos cubiertos de lodo sonríen al terminar su recorrido en go karts en Sarapiquí Race Park",
+      "orientacion": "horizontal",
+      "dimensiones_originales": "4000x3000",
+      "peso_original_kb": 6775.4,
+      "pagina_seccion": "Sobre Nosotros (pendiente de publicación) / Inicio – apoyo en \"Por Qué Elegirnos\"; también Galería",
+      "outputs": [
+        "assets-web/amigos-sonrientes-lodo-fin-recorrido-karts-480.webp",
+        "assets-web/amigos-sonrientes-lodo-fin-recorrido-karts-960.webp",
+        "assets-web/amigos-sonrientes-lodo-fin-recorrido-karts-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_152154.jpg",
+      "slug": "piloto-graba-video-celular-recorrido-kart",
+      "descripcion": "Dos pilotos sobre un go kart en movimiento; el de adelante, con playera naranja, graba con su teléfono celular mientras avanza por la pista embarrada, otro kart visible más adelante.",
+      "alt_text": "Piloto graba con su celular el recorrido desde el go kart mientras avanza por la pista embarrada",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 1609.1,
+      "pagina_seccion": "Galería (experiencia del visitante)",
+      "outputs": [
+        "assets-web/piloto-graba-video-celular-recorrido-kart-480.webp",
+        "assets-web/piloto-graba-video-celular-recorrido-kart-960.webp",
+        "assets-web/piloto-graba-video-celular-recorrido-kart-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_152256.jpg",
+      "slug": "kart-estructura-roja-salpicadura-lodo-curva",
+      "descripcion": "Go kart de estructura tubular roja tomando una curva, piloto de playera oscura al volante, gran salpicadura de lodo levantándose desde las llantas traseras; árboles y bodega roja de fondo.",
+      "alt_text": "Go kart de estructura roja levanta lodo mientras su piloto toma una curva de la pista off-road",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 933.6,
+      "pagina_seccion": "Actividades – imagen de apoyo (curvas de la pista); también Galería",
+      "outputs": [
+        "assets-web/kart-estructura-roja-salpicadura-lodo-curva-480.webp",
+        "assets-web/kart-estructura-roja-salpicadura-lodo-curva-960.webp",
+        "assets-web/kart-estructura-roja-salpicadura-lodo-curva-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_152257.jpg",
+      "slug": "piloto-cruza-pozo-lodo-profundo-kart-off-road",
+      "descripcion": "Piloto con manga larga oscura atraviesa un pozo de lodo profundo con su go kart de estructura naranja/roja; llantas usadas apiladas delimitan la pista al fondo, entre árboles.",
+      "alt_text": "Piloto atraviesa un pozo de lodo profundo con su go kart, con llantas apiladas de fondo delimitando la pista",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 781.6,
+      "pagina_seccion": "Actividades – sección de terreno variado; también Galería",
+      "outputs": [
+        "assets-web/piloto-cruza-pozo-lodo-profundo-kart-off-road-480.webp",
+        "assets-web/piloto-cruza-pozo-lodo-profundo-kart-off-road-960.webp",
+        "assets-web/piloto-cruza-pozo-lodo-profundo-kart-off-road-1600.webp"
+      ]
+    },
+    {
+      "archivo_original": "20260823_152304.jpg",
+      "slug": "piloto-camisa-azul-salpicadura-lodo-charco",
+      "descripcion": "Piloto con camiseta estampada azul/celeste cruza un charco de lodo amplio generando una salpicadura considerable; bodega roja y árboles de fondo, otro kart visible al fondo.",
+      "alt_text": "Piloto con camiseta azul cruza un gran charco de lodo generando una fuerte salpicadura sobre la pista",
+      "orientacion": "vertical",
+      "dimensiones_originales": "3000x4000",
+      "peso_original_kb": 1340.8,
+      "pagina_seccion": "Galería (imagen de acción de apoyo)",
+      "outputs": [
+        "assets-web/piloto-camisa-azul-salpicadura-lodo-charco-480.webp",
+        "assets-web/piloto-camisa-azul-salpicadura-lodo-charco-960.webp",
+        "assets-web/piloto-camisa-azul-salpicadura-lodo-charco-1600.webp"
+      ]
+    }
+  ],
+  "videos": {
+    "estado": "BLOQUEADO — no hay ffmpeg instalado en esta maquina. No se comprimieron ni convirtieron. NO se debe subir el material sin comprimir a producción (varios superan los 10 MB) hasta instalar ffmpeg y procesarlos.",
+    "accion_requerida": "Instalar ffmpeg (por ejemplo via winget/choco: 'winget install Gyan.FFmpeg' o descarga manual) y luego generar versiones comprimidas en MP4 (H.264) y/o WebM, sin autoplay con sonido, con poster de video en WebP.",
+    "archivos": [
+      { "archivo_original": "20260823_104826.mp4", "peso_mb": 2.94 },
+      { "archivo_original": "20260823_104959.mp4", "peso_mb": 4.97 },
+      { "archivo_original": "20260823_105011.mp4", "peso_mb": 4.58 },
+      { "archivo_original": "20260823_105522.mp4", "peso_mb": 10.34 },
+      { "archivo_original": "20260823_152439.mp4", "peso_mb": 11.82 },
+      { "archivo_original": "20260823_152600.mp4", "peso_mb": 7.20 },
+      { "archivo_original": "20260823_154037.mp4", "peso_mb": 3.93 }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$comment": "Spec de marca para Sarapiqui Race Park, generada leyendo el manual de marca PDF completo (11 paginas) y viendo sarapiqui-01.png / sarapiqui-02.png como imagenes. Ver 01-spec/marca.md para la justificacion en prosa de cada campo.",
+  "fuente": {
+    "manual_pdf": "Dropbox/.../gokarts/Sitio Web Claude/manual de marca sarapiqui.pdf",
+    "paginas_leidas": 11,
+    "leido_completo": true
+  },
+  "colores": [
+    {
+      "nombre": "Elite Sand",
+      "hex": "#E6DFD1",
+      "pantone": "7527 C",
+      "uso_segun_manual": "Palabra \"Sarapiquí\" del imagotipo; tono neutro que conecta con la tierra y el entorno natural"
+    },
+    {
+      "nombre": "Impact Red",
+      "hex": "#CB492C",
+      "pantone": "7597 C",
+      "uso_segun_manual": "Palabra \"Race Park\" del imagotipo; intensidad, pasión y velocidad, el color de mayor impacto visual"
+    },
+    {
+      "nombre": "Total Force",
+      "hex": "#000000",
+      "pantone": "Black C",
+      "uso_segun_manual": "Borde sólido del imagotipo; fuerza y contraste sobre cualquier fondo"
+    }
+  ],
+  "paleta_cerrada": true,
+  "paleta_nota": "No usar ningun color fuera de estos tres. El manual (A.04) marca como incorrecto: degradado azul, inversion de jerarquia cromatica entre Sarapiqui/Race Park, y un solo color plano para todo el logo.",
+  "fuentes": {
+    "logotipo": {
+      "es_fuente_estandar": false,
+      "descripcion_manual": "Sans-serif en mayúsculas, robusta, cursiva/diagonal, con bordes desgastados tipo brocha en la S inicial; transmite movimiento y caracter agresivo/deportivo. Es lettering ilustrado, no una fuente de sistema aplicada tal cual.",
+      "uso": "SIEMPRE como imagen (PNG). Nunca recrear como texto o CSS.",
+      "nota_fuentes_del_pdf_no_confundir": "El PDF del manual usa internamente 'LeagueSpartan-Bold' y 'CaxtonStd-Book' para su propia maquetación (títulos y cuerpo del documento del manual). Esas NO son la fuente del logotipo."
+    },
+    "display_titulos": {
+      "familia": "Anton",
+      "fallback_stack": "'Anton', 'Arial Narrow Bold', 'Helvetica Neue Condensed Bold', sans-serif",
+      "fuente_disponible_en": "Google Fonts (gratuita)",
+      "justificacion": "Sans-serif condensada de trazo muy grueso pensada para mayusculas de alto impacto; comparte el caracter 'robusto' y deportivo del logotipo sin imitar su lettering cursivo/desgastado, que sigue siendo exclusivo de la imagen.",
+      "uso": "H1, H2, H3, botones/CTA cortos, todo en mayúsculas"
+    },
+    "cuerpo_texto": {
+      "familia": "Barlow",
+      "fallback_stack": "'Barlow', 'Helvetica Neue', Arial, sans-serif",
+      "fuente_disponible_en": "Google Fonts (gratuita)",
+      "justificacion": "Sans-serif humanista de raiz deportiva/senaletica, muy legible en parrafos largos, con soporte completo de tildes y ñ para español de Costa Rica, y suficientes pesos (400-700) para toda la jerarquia de texto.",
+      "uso": "Párrafos, listas, formularios, texto de UI"
+    }
+  },
+  "escala_tipografica": [
+    { "token": "display-xl", "uso": "H1 / hero", "tamano_px": 56, "tamano_rem": 3.5, "line_height": 1.05, "fuente": "display_titulos", "mayusculas": true },
+    { "token": "display-lg", "uso": "H2 / secciones", "tamano_px": 40, "tamano_rem": 2.5, "line_height": 1.1, "fuente": "display_titulos", "mayusculas": true },
+    { "token": "display-md", "uso": "H3 / subsecciones", "tamano_px": 28, "tamano_rem": 1.75, "line_height": 1.15, "fuente": "display_titulos", "mayusculas": true },
+    { "token": "body-lg", "uso": "lead / intro de sección", "tamano_px": 18, "tamano_rem": 1.125, "line_height": 1.5, "fuente": "cuerpo_texto", "mayusculas": false },
+    { "token": "body", "uso": "párrafo base", "tamano_px": 16, "tamano_rem": 1, "line_height": 1.6, "fuente": "cuerpo_texto", "mayusculas": false },
+    { "token": "body-sm", "uso": "leyendas, notas, footer", "tamano_px": 14, "tamano_rem": 0.875, "line_height": 1.5, "fuente": "cuerpo_texto", "mayusculas": false },
+    { "token": "label", "uso": "botones / CTA / etiquetas", "tamano_px": 15, "tamano_rem": 0.9375, "line_height": 1.2, "fuente": "display_titulos", "mayusculas": true }
+  ],
+  "escala_tipografica_nota": "Propuesta razonable derivada de la descripcion cualitativa del manual y del brief (seccion 5/6); el manual no fija tamanos web explicitos. Si el brief u otro documento ya trae una escala definida, esa prevalece.",
+  "logos": [
+    {
+      "archivo": "sarapiqui-02.png",
+      "ruta_fuente": "Dropbox/.../gokarts/Sitio Web Claude/sarapiqui-02.png",
+      "rol": "logo-principal",
+      "ancho_px": 3508,
+      "alto_px": 1772,
+      "fondo_transparente": true,
+      "fondo_transparente_evidencia": "Canal alfa medido con Pillow: de 6216176 px, 3728190 tienen alfa=0 (transparente) y 2475330 alfa=255 (opaco); no es un fondo blanco solido.",
+      "descripcion_visual": "Imagotipo a color: 'SARAPIQUI' en Elite Sand con contorno Total Force, 'RACE PARK' en Impact Red con contorno Total Force. Composicion diagonal, sin fondo propio.",
+      "uso_recomendado": "Logo de cabecera (header) y pie de pagina (footer); funciona sobre Elite Sand, blanco o fotografias claras.",
+      "ruta_web_optimizada": "PENDIENTE — aun no generada en assets-web/; tarea del agente de imagenes/tema, no de este documento."
+    },
+    {
+      "archivo": "sarapiqui-01.png",
+      "ruta_fuente": "Dropbox/.../gokarts/Sitio Web Claude/sarapiqui-01.png",
+      "rol": "logo-cuadrado-social",
+      "ancho_px": 3508,
+      "alto_px": 3508,
+      "fondo_transparente": false,
+      "fondo_transparente_evidencia": "Canal alfa medido con Pillow: los 12306064 px tienen alfa=255 (totalmente opaco); no hay transparencia.",
+      "descripcion_visual": "Mismo imagotipo a color aplicado sobre una pieza cuadrada con fondo propio: patron ilustrado de huellas de neumatico en negro/gris sobre negro, con una franja diagonal color tierra detras del texto.",
+      "uso_recomendado": "Piezas cuadradas: avatar de redes sociales, og:image si se busca ese estilo. NO usar como logo de header porque trae fondo negro opaco propio.",
+      "ruta_web_optimizada": "PENDIENTE — aun no generada en assets-web/; tarea del agente de imagenes/tema, no de este documento."
+    }
+  ],
+  "logo_versiones_faltantes": {
+    "hallazgo": "Ninguno de los dos PNG entregados es una version monocromatica (blanco y negro). El manual (A.04, 'Versiones correctas') muestra ademas 4 aplicaciones monocromaticas -negro solido, blanco solido, contorno blanco hueco, blanco con contorno negro- que no existen como archivo entre el material fuente.",
+    "accion": "PENDIENTE — pedir a Adrian, si el tema llega a necesitar una version en blanco y negro (p. ej. sobre foto oscura o impresion a una tinta), los archivos monocromaticos correspondientes o un vectorial (SVG/AI) del que se puedan derivar."
+  },
+  "vectorial_svg_ai": {
+    "necesario": "recomendado, no bloqueante",
+    "razon": "Los PNG fuente son de 3508 px (calidad ~300dpi tipo A4), suficiente para casi cualquier uso en pantalla incluida alta densidad en tamanos de header habituales (200-400px de ancho). El brief ya califica esto como prioridad Baja. Pedir el vectorial sigue siendo util para favicon/recortes limpios y para una eventual version monocromatica.",
+    "prioridad": "baja"
+  },
+  "aplicaciones_permitidas": [
+    "Version principal a color sobre fondo claro (equivalente a sarapiqui-02.png)",
+    "Version principal a color sobre fondo oscuro",
+    "Version monocromatica blanca con contorno negro solido sobre fondo claro (archivo no disponible hoy)",
+    "Version monocromatica de contorno blanco hueco sobre fondo oscuro (archivo no disponible hoy)",
+    "Version solida en negro (Total Force 100%) sobre fondo claro (archivo no disponible hoy)",
+    "Version solida en blanco (100%) sobre fondo oscuro (archivo no disponible hoy)"
+  ],
+  "aplicaciones_incorrectas": [
+    "Degradado azul u otro color fuera de la paleta oficial",
+    "Invertir la jerarquia cromatica entre 'Sarapiqui' (Elite Sand) y 'Race Park' (Impact Red)",
+    "Aplicar el imagotipo sobre una caja o bloque de fondo solido pegado/ajustado al texto en vez de flotar limpiamente sobre el fondo real de la pieza",
+    "Recolorear el imagotipo completo en un solo color plano (por ejemplo, todo en rojo/marron)"
+  ],
+  "contradicciones_o_vacios": [
+    "El brief asumia que entre los dos PNG entregados habria una version a color y otra en blanco y negro; al ver los archivos, ambos estan a color. No existe hoy un archivo B/N real entre el material fuente — ver 'logo_versiones_faltantes'.",
+    "No hay contradiccion entre manual y brief en paleta, jerarquia de color ni en los ejemplos de uso incorrecto: coinciden exactamente."
+  ],
+  "regla_uso_imagen": "El imagotipo se usa SIEMPRE como archivo de imagen (PNG). Nunca se recrea como texto o CSS con las fuentes web propuestas."
+}
