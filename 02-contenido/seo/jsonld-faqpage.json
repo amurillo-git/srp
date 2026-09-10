@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la edad mínima para conducir un go kart?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La edad mínima para conducir solo es 9 años. Los menores de 9 años pueden participar acompañados por un adulto en el mismo kart."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es obligatorio hacer una reserva previa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, la reserva previa es obligatoria. Se requiere un depósito del 50% para confirmar tu reserva."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la política de cancelación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si cancelas con 48 horas de anticipación, tienes derecho a un reembolso completo. Cancelaciones realizadas con menos de 48 horas de anticipación no son reembolsables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el horario de operación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sarapiquí Race Park abre sábado, domingo y feriados de 9:00 am a 4:00 pm. Permanecemos cerrados el resto de la semana."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde están ubicados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos encontramos en Horquetas de Sarapiquí, sobre la Ruta 4, kilómetro 16, en la provincia de Heredia, Costa Rica."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los requisitos de peso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El peso máximo permitido es 100 kg para adultos y 50 kg para niños. Estos límites son por seguridad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué incluye el paquete?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cada paquete incluye: carrera en kart 270cc, instrucción de seguridad previa, equipo de protección completo, uso de la pista off-road y acceso a las duchas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo hago una reserva?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El proceso es simple: 1) Contacta a través de WhatsApp o email, 2) Especifica la fecha, hora y cantidad de personas, 3) Elige tu paquete preferido, 4) Realiza el depósito del 50%, 5) ¡Tu reserva está confirmada!"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los datos de contacto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puedes contactarnos por WhatsApp al +506 7210-0389 o enviar un email a info@srp.cr para realizar tu reserva."
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "generated": "2026-09-10",
+    "pages": 7,
+    "specification": "Brief técnico secciones 6 y 6.1",
+    "validacion": "Títulos 50-60 caracteres, descriptions 140-160 caracteres (conteo manual verificado)",
+    "ogImage_base": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp"
+  },
+  "paginas": {
+    "inicio": {
+      "slug": "inicio",
+      "title": "Sarapiquí Race Park - Go Karts Off-Road Costa Rica",
+      "titleLen": 50,
+      "description": "Vive la emoción del off-road en Sarapiquí Race Park. Go karts de 270cc en pista de 500m. Diversión extrema para toda la familia en Horquetas.",
+      "descLen": 141,
+      "ogTitle": "Sarapiquí Race Park - Go Karts Off-Road en Costa Rica",
+      "ogDescription": "Go karts de 270cc en pista de 500m. Diversión extrema para toda la familia. Reserva tu experiencia en Horquetas de Sarapiquí.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    },
+    "actividades": {
+      "slug": "actividades",
+      "title": "Go Karts Off-Road en Sarapiquí - Actividades que ofrece",
+      "titleLen": 55,
+      "description": "Go karts 270cc en Horquetas de Sarapiquí. Pista off-road 500m, edad mínima 9 años, seguridad con personal certificado. Reserva previa y depósito 50%.",
+      "descLen": 149,
+      "ogTitle": "Go Karts Off-Road en Sarapiquí - Actividades que ofrece",
+      "ogDescription": "Karts 270cc, pista off-road de 500m, edad mínima 9 años, personal certificado supervisando. Reserva previa obligatoria.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    },
+    "ubicacion-horarios": {
+      "slug": "ubicacion-horarios",
+      "title": "Ubicación y Horarios - Sarapiquí Race Park Costa Rica",
+      "titleLen": 53,
+      "description": "Go karts off-road en Horquetas de Sarapiquí, Ruta 4, kilómetro 16. Abierto sábado, domingo y feriados de 9:00 am a 4:00 pm. Acceso en vehículo.",
+      "descLen": 143,
+      "ogTitle": "Ubicación y Horarios - Sarapiquí Race Park",
+      "ogDescription": "Ubicación: Horquetas de Sarapiquí, Ruta 4 km 16. Abierto sáb, dom, feriados 9am-4pm.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    },
+    "precios": {
+      "slug": "precios",
+      "title": "Precios y Paquetes - Go Karts Off-Road en Sarapiquí",
+      "titleLen": 51,
+      "description": "Tarifas go karts: desde ₡2,000/vuelta, paquetes 10-15 min desde ₡6,000. Grupos ₡5,500/pers (descuento 20+). Horquetas de Sarapiquí. Depósito 50%.",
+      "descLen": 145,
+      "ogTitle": "Precios y Paquetes - Go Karts Off-Road",
+      "ogDescription": "Desde ₡2,000 por vuelta. Paquetes 10 min (₡6,000), 15 min (₡7,000). Grupos desde ₡5,500/persona.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    },
+    "galeria": {
+      "slug": "galeria",
+      "title": "Galería Fotos y Videos - Go Karts Off-Road Sarapiquí",
+      "titleLen": 52,
+      "description": "Fotos y videos de experiencias de go karts off-road en Sarapiquí. Pista de 500m, pilotos en acción, familias disfrutando en Horquetas de Sarapiquí.",
+      "descLen": 147,
+      "ogTitle": "Galería - Sarapiquí Race Park Go Karts Off-Road",
+      "ogDescription": "Fotos y videos de pilotos en acción, pista off-road, familias disfrutando en Sarapiquí Race Park.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    },
+    "faq": {
+      "slug": "faq",
+      "title": "Preguntas Frecuentes - Go Karts Sarapiquí Race Park",
+      "titleLen": 51,
+      "description": "Respuestas sobre go karts off-road: edad mínima (9 años), cómo reservar, depósito, qué incluye, ubicación (Horquetas de Sarapiquí), horarios.",
+      "descLen": 141,
+      "ogTitle": "Preguntas Frecuentes - Go Karts Sarapiquí Race Park",
+      "ogDescription": "FAQ: edad mínima 9 años, reservas, depósito 50%, qué incluye, ubicación y horarios en Horquetas de Sarapiquí.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    },
+    "sobre-nosotros": {
+      "slug": "sobre-nosotros",
+      "title": "Sobre Nosotros - Sarapiquí Race Park Go Karts Off-Road",
+      "titleLen": 54,
+      "description": "Historia de Sarapiquí Race Park, líder en go karts off-road en Horquetas de Sarapiquí. Personal certificado, karts última generación en Costa Rica.",
+      "descLen": 147,
+      "ogTitle": "Sobre Nosotros - Sarapiquí Race Park",
+      "ogDescription": "Sarapiquí Race Park: experiencias de go karts off-road únicas, personal certificado, karts de última generación en Horquetas de Sarapiquí.",
+      "ogImage": "assets-web/go-kart-270cc-salpicando-lodo-pista-off-road-sarapiqui-og-1200x630.webp",
+      "ogType": "website",
+      "twitterCard": "summary_large_image"
+    }
+  }
+}
